@@ -1,0 +1,9 @@
+#ifdef VENDOR_EDIT
+#Wen.Luo@PSW.Kernel.Stability, 2018/05/23, Add for oppo_shutdown_detect monitor
+config OPPO_SHUTDOWN_DETECT
+	bool "OPPO shutdown hang detect"
+	default y
+	help
+	  define this config to init oppo oppo_shutdown_detect.
+#endif /* VENDOR_EDIT */
+
